@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background-color: rgb(15, 64, 80);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    padding: .5em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: rgb(241, 241, 92);
+}
+
+.green {
+    background-color: rgb(93, 233, 123);
+}
+
+.blue {
+    background-color: rgb(38, 146, 247);
+}
